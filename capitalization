@@ -1,0 +1,9 @@
+let Name = "usman rahim software engineer"
+const str1 = Name.split(" ")
+
+for(let i = 0;i<str1.length;i++){
+    str1[i] = str1[i].charAt(0).toUpperCase() + str1[i].slice(1);
+    // console.log(str1[i])
+}
+let str2 = str1.join(" ")
+console.log(str2)
