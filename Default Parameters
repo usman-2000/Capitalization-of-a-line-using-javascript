@@ -1,0 +1,14 @@
+const leadSinger = (artist = "someone") => {
+    console.log(`${artist} is the lead singer of Cold Play`);
+}
+
+leadSinger();
+
+
+
+
+const Names= (name="Khalid")=>{
+    console.log(`${name} is a best man`)
+}
+
+Names("Usman")
