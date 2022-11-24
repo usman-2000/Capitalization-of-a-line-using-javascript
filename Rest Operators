@@ -1,0 +1,6 @@
+
+let sub = (...nums)=>{
+    console.log(nums)
+}
+
+sub(1,2,3,43,5)
